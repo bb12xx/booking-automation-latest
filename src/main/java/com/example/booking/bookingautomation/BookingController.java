@@ -17,4 +17,9 @@ public class BookingController {
     {
         return "Hi child2";
     }
+    @GetMapping("/getdetails2")
+    public String getDetails2()
+    {
+        return "Hi child1";
+    }
 }
